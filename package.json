@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "compilate ftl template (java) in node",
   "main": "ftl.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pavelpower/node-ftl.git"
+  },
   "scripts": {
     "test": "mocha",
     "start": "node server.js"
