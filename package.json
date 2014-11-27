@@ -1,0 +1,23 @@
+{
+  "name": "node-ftl",
+  "version": "0.1.0",
+  "description": "compilate ftl template (java) in node",
+  "main": "ftl.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "pavelpower<pavel.power@ya.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "iconv-lite": "^0.4.5"
+  },
+  "devDependencies": {
+    "lodash": "^2.4.1",
+    "express": "^4.10.4",
+    "package-json-validator": "^0.5.6",
+    "mocha": "^2.0.1",
+    "should": "^4.3.0",
+    "html5-lint": "^0.2.3"
+  }
+}
