@@ -28,14 +28,13 @@ var processTemplate = function(args) {
     ]);
 
     cmd.stdout.on('data', function(data) {
-        // args.callback(null, iconv.decode(data, 'gbk'));
-        resultData += iconv.decode(data, 'gbk');
+        resultData += iconv.decode(data, args.settings.encoding);
         stream.emit('data', resultData);
     });
 
     cmd.stderr.on('data', function(data) {
         // Print error message
-        console.log(iconv.decode(data, 'gbk'));
+        console.log(iconv.decode(data, args.settings.encoding));
     });
 
     cmd.stdout.on('end', function(err) {
