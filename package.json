@@ -1,6 +1,6 @@
 {
   "name": "node-ftl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "compilate ftl template (java) in node",
   "main": "ftl.js",
   "repository": {
